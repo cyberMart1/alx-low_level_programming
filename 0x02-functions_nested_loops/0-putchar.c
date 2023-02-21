@@ -10,8 +10,8 @@
  * On error, -1 is returned, and errno is set appropriately.
 */
 
-int main()
+int main(void)
 {
 	printf("_putchar\n");
-	return 0;
+	return (0);
 }
