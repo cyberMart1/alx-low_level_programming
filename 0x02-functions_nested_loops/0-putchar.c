@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdio.h>
-/*                                              * main - The entry point of the program
- *                                              * Return: will return 0 when the peogram is successful
- *
+/*                                              * main: check the code
+ *                                              * Return: will return 0 if success
+ *                                              *
 */
 
 int main(void)
