@@ -1,11 +1,9 @@
-#include "main.h"
-#include <unistd.h>
 #include <stdio.h>
-
 /*
  * main - The entry point of the program
  *
- * Return: On success 0
+ * Return: will return 0 when the peogram is successful
+ *
 */
 
 int main(void)
