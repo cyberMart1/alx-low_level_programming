@@ -8,4 +8,5 @@ int largest_number(int a, int b, int c);
 int largest(int i);
 int putchar(int i);
 
+int convert_day(int month, int day);
 #endif /* MAIN_H */
