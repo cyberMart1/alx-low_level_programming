@@ -1,7 +1,6 @@
 /**
  * leet - encodes a string into leetspeek.
- * @s: pointer string.
- * @n: pointer to input string.
+ * @n: pointer to input string n.
  * Return: Returns pointer to leetspeek string.
  */
 
