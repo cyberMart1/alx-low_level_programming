@@ -1,8 +1,8 @@
 /**
- * _strspn - gets the length of a prefix substring
- * @s: segment to compare bytes from
- * @accept: string of bytes to compare with
- * Return: number of bytes in segment s which consist of bytes from accept
+ *  * _strspn - gets the length of a prefix substring
+ *   * @s: segment to compare bytes from
+ *    * @accept: string of bytes to compare with
+ *     * Return: number of bytes in segment s which consist of bytes from accept
  */
 
 unsigned int _strspn(char *s, char *accept)
@@ -20,8 +20,8 @@ unsigned int _strspn(char *s, char *accept)
 		if (accept[j] == '\0')
 		{
 			return (i);
-			i++;
 		}
+		i++;
 	}
 	return (i);
 }
