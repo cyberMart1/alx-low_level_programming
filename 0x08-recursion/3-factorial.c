@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
  * factorial - returns the factorial of the number
  * @n: the max factorial
@@ -11,7 +12,7 @@ int factorial(int n)
 	}
 	else if
 	{
-		(n <= 1);
+		(n >= 1);
 		return (1);
 	}
 	return (n * factorial(n - 1));
