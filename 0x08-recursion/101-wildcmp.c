@@ -1,10 +1,17 @@
-void _puts_recursion(char *s);
-void _print_rev_recursion(char *s);
-int _strlen_recursion(char *s);
-int factorial(int n);
-int _pow_recursion(int x, int y);
-int _sqrt_recursion(int n);
-int is_prime_number(int n);
-int is_palindrome(char *s);
+#include "main.h"
+
+int strlen_no_wilds(char *str);
+void iterate_wild(char **wildstr);
+char *postfix_match(char *str, char *postfix);
 int wildcmp(char *s1, char *s2);
-int _putchar.c(char c);
+
+/**
+ *strlen_no_wilds - main entry point,
+ *                     ignoring wildcard characters.
+ * @str: The string to be measured.
+ *
+ * Return: The length.
+ */
+int strlen_no_wilds(char *str)
+{
+	int len = 0, index = 0;
