@@ -1,4 +1,4 @@
-#include "mai"
+#include "main"
 #include <stdlib.h>
 
 /**
